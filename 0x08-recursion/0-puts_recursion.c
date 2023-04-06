@@ -4,7 +4,7 @@
  * _puts_recursion - print string with new line
  */
 
-void _puts-recursion(char *s)
+void _puts_recursion(char *s)
 
 { 
            
