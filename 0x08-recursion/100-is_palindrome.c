@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * length - is the length of the string
  * @s: string used
@@ -7,6 +8,7 @@
 int length(char *s)
 {
 	int i = 0;
+
 	if (*s)
 	{
 		i = i + length(s + 1);
@@ -29,7 +31,7 @@ int help(int i, char *s)
 		{
 			return (0);
 		}
-		return (help(i + 1, s +2));
+		return (help(i + 1, s + 1));
 	}
 	return (1);
 }
@@ -37,10 +39,11 @@ int help(int i, char *s)
 /**
  * is_palindrome - is current value equal to the previous value
  * @s: string
- * Return: booleen
+ * Return: boolean
  */
 int is_palindrome(char *s)
 {
 	int i = 1;
+
 	return (help(i, s));
 }
