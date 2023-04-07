@@ -1,0 +1,14 @@
+#include "main.h"
+/**
+ * factoial - find factorial of n
+ * @n: number
+ * Return: factorial of number, -1 if negative n
+ */
+int factorial(int n)
+{
+	if (n < 0)
+		return (-1);
+	if (n <= 1)
+		return (1);
+	return (n * factorialn(n - 1));
+}
