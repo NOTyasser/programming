@@ -2,13 +2,14 @@
 #include <stdio.h>
 #include <stddef.h>
 
+
 /**
- * print_listint - prints a listint with a newlines between
+ * print_listint - prints listint with newlines between
  * each node's value
  *
- * @n: head of the list to print
+ * @h: head of list to print
  *
- * Return: the length of the list
+ * Return: length of list
  */
 size_t print_listint(const listint_t *h)
 {
