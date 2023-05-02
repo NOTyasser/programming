@@ -3,8 +3,10 @@
 #include <stddef.h>
 
 /**
- * listint_len - returns the length of a linked list
- * @n: list to get length of
+ * listint_len - returns length of linked list
+ *
+ * @h: list to get length of
+ *
  * Return: length of list
  */
 size_t listint_len(const listint_t *h)
