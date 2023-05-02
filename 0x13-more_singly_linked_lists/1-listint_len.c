@@ -4,7 +4,9 @@
 
 /**
  * listint_len - returns the length of a linked list
+ *
  * @n: list to get length of
+ *
  * Return: the length of the list
  */
 size_t listint_len(const listint_t *h)
