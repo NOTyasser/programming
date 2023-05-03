@@ -4,7 +4,7 @@
 
 
 /**
- * print_listint - prints listint with newlines between
+ * print_listint - prints listint with newlines between 
  * each node's value
  *
  * @h: head of list to print

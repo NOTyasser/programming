@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * free_listint - function that frees a listint_t list
+ * free_listint - function that frees a listint_t list 
  * @head: the head of list to free
  * Return: void of listint
  */

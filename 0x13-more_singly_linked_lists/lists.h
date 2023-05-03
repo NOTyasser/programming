@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * struct listint_s - the singly linked list
+ * struct listint_s - the singly linked list 
  * @n: integer
  * @next: the points of the next node
  *
