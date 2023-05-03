@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * listint_len - returns length of linked list 
+ * listint_len - returns length of linked list
  *
  * @h: list to get length of
  *

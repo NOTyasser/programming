@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * add_nodeint - prepends a node to the listint list 
+ * add_nodeint - prepends a node to the listint list
  *
  * @head: head of list to add the node to
  * @n: value to give n in node
