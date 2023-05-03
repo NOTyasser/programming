@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * delete_nodeint_at_index - deletes a listint node at index
+ * delete_nodeint_at_index - deletes a listint node at the index
  *
- * @head: head of list
+ * @head: the head of the list
  * @index: index to delete at
  *
  * Return: 1 if successful, -1 otherwise
