@@ -2,12 +2,12 @@
 #include <stdlib.h>
 
 /**
- * reverse_recur - function that reverses a listint_t linked list
+ * reverse_recur - recursively reverses a listint list
  *
- * @first line: the node to reverse
- * @second line: node after node to reverse
+ * @first: node to reverse
+ * @second: node after node to reverse
  *
- * Return: pointer to the first node of the reversed list
+ * Return: void
  */
 listint_t *reverse_recur(listint_t *first, listint_t *second)
 {
@@ -16,7 +16,7 @@ listint_t *reverse_recur(listint_t *first, listint_t *second)
 	ptr = first;
 	while (ptr->next != second)
 	{
-		pev = ptr;
+		prev = ptr;
 		ptr = ptr->next;
 	}
 
@@ -31,11 +31,11 @@ listint_t *reverse_recur(listint_t *first, listint_t *second)
 }
 
 /**
- * reverse_listint - reverse a listint list
+ * reverse_listint - reverses a listint list
  *
- * @head: the list to reverse
+ * @head: list to reverse
  *
- * Return: new head of the list
+ * Return: new head of list
  */
 listint_t *reverse_listint(listint_t **head)
 {
