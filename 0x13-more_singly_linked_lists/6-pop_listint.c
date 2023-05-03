@@ -2,9 +2,12 @@
 #include <stdlib.h>
 
 /**
- * pop_listint - returns value of head node and removes it
- * @head: head of the list
- * Return: the head node’s data
+ * pop_listint - returns the value of head node and deletes it,
+ * 0 otherwise
+ *
+ * @head: head of list
+ *
+ * Return: value of node, or 0 if list empty
  */
 int pop_listint(listint_t **head)
 {
