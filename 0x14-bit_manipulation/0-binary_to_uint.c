@@ -4,7 +4,7 @@
 /**
  * binary_to_uint - function that converts a binary number to an unsigned int
  * 
- * @b: char the string
+ * @b: char string
  * 
  * Return: the converted number, or 0 if there is one or more chars in the string
  */
