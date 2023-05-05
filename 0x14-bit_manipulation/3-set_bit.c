@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * set-bit - function that sets the value of a bit to 1 at a given index
+ * set_bit - function that sets the value of a bit to 1 at a given index
  * @n: decimal number passed by pointer
  * @index: index position to change, starting from 0
  * Return: 1 if it worked, -1 if error
